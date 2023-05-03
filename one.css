@@ -1,0 +1,493 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background: url(./kanchanara-GnWfl_nnZro-unsplash.jpg)center center/cover;
+    height: 400px;
+    width: 100%;
+   position: relative;
+}
+.container::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: absolute;
+}
+.nav{
+position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo h1{
+    color: goldenrod;
+}
+.navbar ul{
+list-style: none;
+display: flex;
+
+}
+.navbar ul li{
+    display: flex;
+margin: 10px 0px;
+}
+.navbar ul li a{
+    color: goldenrod;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.box-welcome{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 800px;
+   
+    color: goldenrod;
+    margin: auto;
+}
+.box-welcome button{
+    height: 25px ;
+    width: 100px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: darkgoldenrod;
+    margin-top: 20px;
+}
+.service-heading h1{
+text-align: center;
+margin-top:20px ;
+margin-bottom: 20px;
+}
+.service-heading::after{
+content: "";
+height: 5px;
+width: 100px;
+background-color: goldenrod;
+position: relative;
+justify-content: center;
+
+display: flex;
+margin: auto;
+margin-top: -10px;
+
+}
+.container-service {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.bitcoin{
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    box-shadow:0px 0px 2px 2px grey;
+}
+.bitcoin button{
+ height: 25px;
+    width: 100px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.ethernum{
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    box-shadow:0px 0px 2px 2px grey;
+}
+.ethernum button{
+ height: 25px;
+    width: 100px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.shibu{
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    box-shadow:0px 0px 2px 2px grey;
+}
+.shibu button{
+ height: 25px;
+    width: 100px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.duck{
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    box-shadow:0px 0px 2px 2px grey;
+}
+.duck button{
+ height: 25px;
+    width: 100px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.cont1 img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.cont2 img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.cont3 img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.cont4 img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+
+.about-heading h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.about-heading::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: goldenrod;
+    position: relative;
+    justify-content: center;
+    
+    display: flex;
+    margin: auto;
+    margin-top: -10px;
+    
+    }
+.container-about{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.client-heading h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.client-heading::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: goldenrod;
+    position: relative;
+    justify-content: center;
+    
+    display: flex;
+    margin: auto;
+    margin-top: -10px;
+    
+    }
+.box-client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.staff-heading h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.staff-heading::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: goldenrod;
+    position: relative;
+    justify-content: center;
+    
+    display: flex;
+    margin: auto;
+    margin-top: -10px;
+    
+    }
+.box-staff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.staff{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.about-text{
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    box-shadow:0px 0px 2px 2px grey;
+}
+.about-text button{
+    height: 25px;
+    width: 100px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.client img{
+    height: 100px;
+margin-right:25px ;
+}
+.staff img{
+    height: 100px;
+    margin-right: 25px;
+}
+.ftr{
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px;
+    background-color: black;
+}
+.pos1{
+    display: flex;
+    flex-direction: column;
+}
+.pos3{
+    display: flex;
+    flex-direction: column;
+}
+.pos3 button{
+    height: 25px;
+    width: 100px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+
+}
+.pos1 h1{
+    color: goldenrod;
+} 
+.pos2 h1{
+color: goldenrod;
+}
+.pos3 h1{
+    color: goldenrod;
+}
+.ftr a{
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+} 
+@media  screen and (max-width:320px) {
+    .navbar ul{
+        display: none;
+    }
+    .box-welcome{
+        height: 250px;
+        width: 100%;
+    }
+    .container-service{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bitcoin{
+        justify-content: center;
+       margin: auto;
+    }
+    .ethernum{
+        justify-content: center;
+       margin: auto;
+    }
+    .shibu{
+        justify-content: center;
+       margin: auto;
+    }
+    .duck{
+        justify-content: center;
+       margin: auto;
+    }
+    .container-about{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-text{
+        justify-content: center;
+        margin: auto;
+    }
+    .ftr{
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width:425px) {
+    /* .navbar ul{
+        display: none;
+    } */
+    .box-welcome{
+        height: 250px;
+        width: 100%;
+    }
+    .container-service{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bitcoin{
+        justify-content: center;
+       margin: auto;
+    }
+    .ethernum{
+        justify-content: center;
+       margin: auto;
+    }
+    .shibu{
+        justify-content: center;
+       margin: auto;
+    }
+    .duck{
+        justify-content: center;
+       margin: auto;
+    }
+    .container-about{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-text{
+        justify-content: center;
+        margin: auto;
+    }
+    .ftr{
+        flex-direction: column;
+    }
+}@media  screen and (max-width:320px) {
+    .navbar ul{
+        display: none;
+    }
+    .box-welcome{
+        height: 250px;
+        width: 100%;
+    }
+    .container-service{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .bitcoin{
+        justify-content: center;
+       margin: auto;
+    }
+    .ethernum{
+        justify-content: center;
+       margin: auto;
+    }
+    .shibu{
+        justify-content: center;
+       margin: auto;
+    }
+    .duck{
+        justify-content: center;
+       margin: auto;
+    }
+    .container-about{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-text{
+        justify-content: center;
+        margin: auto;
+    }
+    .ftr{
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width:768px) {
+    .box-welcome{
+        height: 250px;
+        width: 100%;
+    }
+    .container-service{
+        justify-content: space-evenly;
+    }
+    .container-service img{
+        height: 150px;
+        width: 150px;
+    }
+    .bitcoin{
+       height: 150px;
+       width: 150px;
+       margin: auto;
+    }
+    .ethernum{
+       height: 150px;
+       width: 150px;
+       margin: auto;
+    }
+    .shibu{
+        height: 150px;
+        width: 150px;
+       margin: auto;
+    }
+    .duck{
+        height: 150px;
+        width: 150px;
+       margin: auto;
+    }
+    .container-about{
+        
+        justify-content: space-evenly;
+    }
+    
+   
+}
